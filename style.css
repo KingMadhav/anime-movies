@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: black; 
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: radial-gradient(chocolate,black);
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+    position: sticky;
+    top: 10vh;
+    margin: 10vh 0vw 1vh 0; 
+    width: 90%; 
+    max-width: 500px;
+    height: auto;
+    overflow: hidden;
+    padding: 2vh;
+    background: linear-gradient(rgb(66, 46, 30), gold);
+    border-radius: 20px;
+}
+
+.para > h1 {
+    text-transform: capitalize;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.top5movies {
+    width: 100%;
+    padding: 2vh 3vw;
+}
+
+.listitems {
+    padding: 2vh 5vh;
+    font-size: x-large;
+}
+
+.card2 > img,
+.card3 > img ,
+.card4 > img ,
+.card5 > img ,
+.card6 > img ,
+.card7 > img {
+    width: 100%;
+    padding: 2vh 3vw;
+}
+
+.p {
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 5vh 0; 
+        width: 95%; 
+    }
+
+    .para > h1 {
+        font-size: 5vw; 
+    }
+
+    .listitems {
+        font-size: large; 
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin: 8vh 0; 
+    }
+
+    .para > h1 {
+        font-size: 6vw; 
+    }
+
+    .p {
+        font-size: small;
+    }
+}
